@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-between;
+    margin: 50px auto;
+}
+
+.dice {
+    width: 250px;
+    height: 250px;
+    background-image: url('img/side1.png');
+    background-size: cover;
+    margin: 25px;
+}
+
+.side1 {
+    width: 250px;
+    height: 250px;
+    background-image: url('img/side1.png');
+    background-size: cover;
+    margin: 25px;
+}
+
+.side2 {
+    width: 250px;
+    height: 250px;
+    background-image: url('img/side2.png');
+    background-size: cover;
+    margin: 25px;
+}
+
+.side3 {
+    width: 250px;
+    height: 250px;
+    background-image: url('img/side3.png');
+    background-size: cover;
+    margin: 25px;
+}
+
+.side4 {
+    width: 250px;
+    height: 250px;
+    background-image: url('img/side4.png');
+    background-size: cover;
+    margin: 25px;
+}
+
+.side5 {
+    width: 250px;
+    height: 250px;
+    background-image: url('img/side5.png');
+    background-size: cover;
+    margin: 25px;
+}
+
+.side6 {
+    width: 250px;
+    height: 250px;
+    background-image: url('img/side6.png');
+    background-size: cover;
+    margin: 25px;
+}
+
+button {
+    width: 100%;
+}
